@@ -76,7 +76,7 @@ if [ "$P1" == "--download" ]; then
 fi
 
 # Get the version from the Debian/Ubuntu .deb (thanks to Fred Richards):
-SRCVER=$(ar p ${PRGNAM}_${RELEASE}_${DEBARCH}.deb control.tar.gz 2> /dev/null | tar zxO control 2> /dev/null | grep Version | awk '{print $2}' | cut -d- -f1)
+SRCVER=$(ar p ${PRGNAM}_${RELEASE}_${DEBARCH}.deb control.tar.gz 2> /dev/null | tar zxO control 2> /dev/null | grep Version | awk '{print $2}')
 
 #if [ "$VERSION" != "$SRCVER" ]; then
 #  cat <<EOF
@@ -91,6 +91,7 @@ SRCVER=$(ar p ${PRGNAM}_${RELEASE}_${DEBARCH}.deb control.tar.gz 2> /dev/null | 
 #fi
 
 set -e
+printf "Building Send Anywhere, version %s\n" $SRCVER
 
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
