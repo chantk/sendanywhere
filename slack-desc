@@ -6,14 +6,15 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
             |-----handy-ruler------------------------------------------------------|
-sendanywhere: sendanywhere (Wi-fi Direct file transfer tool)
+sendanywhere: Send Anywhere (An easy, quick and unlimited file transfer tool)
 sendanywhere:
-sendanywhere: Send Anywhere is a high speed file transfer tool for that 
-sendanywhere: supports PC, OS X, Android, iPhone and Windows Mobile. It is P2P and
-sendanywhere: do not require a wireless AP.
-sendanywhere:
-sendanywhere:
-sendanywhere:
-sendanywhere:
-sendanywhere: Website: http://send-anywhere.com
-sendanywhere:
+sendanywhere: Send Anywhere is an easy, quick and unlimited file sharing
+sendanywhere: application.
+sendanywhere: 
+sendanywhere: Features:
+sendanywhere: * Transfer any file type without altering the original
+sendanywhere: * All you need is a one-time 6-digit key for an easy file transfer
+sendanywhere: * Wi-Fi Direct: transfer without using data or the Internet
+sendanywhere: * Share files to multi-people at once via a link
+sendanywhere: * Transfer files to a specific device
+sendanywhere: * Reinforced file encryption (256-bit)
