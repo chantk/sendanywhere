@@ -1,10 +1,10 @@
 PRGNAM="sendanyhere"
-VERSION="9.3.5-343"
+VERSION="20.11.5-810
 HOMEPAGE="https://send-anywhere.com/file-transfer"
 DOWNLOAD="https://update.send-anywhere.com/linux_downloads/sendanywhere_latest_i386.deb"
 MD5SUM="3370060be779c80afdcf4421668f09ae"
 DOWNLOAD_x86_64="https://update.send-anywhere.com/linux_downloads/sendanywhere_latest_amd64.deb"
-MD5SUM_x86_64="702aa57766b2344087d5f49acd319258"
+MD5SUM_x86_64="5918794c4805a6e210660e9bfd4c70c8"
 REQUIRES=""
-MAINTAINER="kchan"
+MAINTAINER="Kenneth Chan"
 EMAIL="kenneth.t.chan@gmail.com"
